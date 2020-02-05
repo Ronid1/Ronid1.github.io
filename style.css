@@ -14,11 +14,15 @@ body, html{
 	background-size: cover;
 	font-family:'Caveat', cursive;
 	color: white;
-	text-align: center;
 }
 
 h1{
 		font-size: 7rem;
+}
+
+h2{
+	color: white;
+	font-size: 3rem;
 }
 
 h3{
@@ -27,10 +31,12 @@ h3{
 
 .content{
 	margin: 0px 10px;
+
 }
 
 .navbar{
 	background-color: black;
+	font-size: 1.3em;
 }
 
 .card{
