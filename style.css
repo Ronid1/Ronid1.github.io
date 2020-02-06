@@ -30,13 +30,16 @@ h3{
 }
 
 .content{
-	margin: 0px 10px;
-
+	margin-bottom: 50px;
 }
 
 .navbar{
 	background-color: black;
 	font-size: 1.3em;
+}
+
+.card-deck{
+	margin-top: 20px;
 }
 
 .card{
@@ -51,8 +54,4 @@ h3{
 .btn-primary:hover{
 	background-color: #225884;
 	border: 3px solid #225884;
-}
-
-.btn{
-	margin-top: 5px;
 }
