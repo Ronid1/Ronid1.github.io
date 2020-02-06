@@ -2,7 +2,7 @@ body, html{
 	width: 100%;
 	height: 100%;
 	font-family: 'Montserrat', sans-serif;
-	color: white;
+	color: white; 
 	background-color: black;
 }
 
@@ -17,7 +17,7 @@ body, html{
 }
 
 h1{
-		font-size: 7rem;
+	font-size: 7rem;
 }
 
 h2{
@@ -41,4 +41,18 @@ h3{
 
 .card{
 	color: black;
+}
+
+.btn-primary{
+	border: none;
+	background-color: #0765b2
+}
+
+.btn-primary:hover{
+	background-color: #225884;
+	border: 3px solid #225884;
+}
+
+.btn{
+	margin-top: 5px;
 }
