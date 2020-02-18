@@ -15,6 +15,7 @@
 
 	<!-- CSS style sheet -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 
@@ -65,8 +66,28 @@
 					<div class="card-body d-flex flex-column">
 					    <h5 class="card-title">Sudoku</h5>
 					    <p class="card-text">Build-your-own sudoku game, coded with java and swing library for UI while following MVC framework.</p>
-					    <div class = "card-btns flex-column mt-auto text-center">
-						    <a href="#" class="btn btn-primary col-5">Demo</a>
+					    <div class = "Scard-btns flex-column mt-auto text-center">
+						    <!--a href="sudokuGif.gif" class="btn btn-primary col-5">Demo</a-->
+						    <button type="button" class="btn btn-primary col-5" data-toggle="modal" data-target="#sudoku">Demo</button>
+						   
+						    <!--Modal-->
+						    <div class="modal fade" id="sudoku" tabindex="-1">
+						    	<div class="modal-dialog modal-lg d-flex">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title">Sudoku Demo</h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body flex-column flex-row">
+								      	<iframe src="sudokuGif.gif" class="col-12 row-12"></iframe>
+								      </div>
+								    </div>
+								</div>
+							</div>
+							<!--Modal end-->
+
 						    <a href="https://github.com/Ronid1/sudoku" class="btn btn-primary col-6">Source Code</a>
 						</div>
 					 </div>
@@ -104,7 +125,7 @@
 		<!--about-->
 		<h2><a id="Resume"></a> Resume </h2>
 			<p> Hi! I'm a California Bay-Area based computer science student.<br>
-			I'm pressuring my degree online through the open university in Israel, making my schedule and location flexible to any opportunity that may come my way.
+			I'm pressuring my degree online through the Open University in Israel, making my schedule and location flexible to any opportunity that may come my way.
 			</p>
 			<p>
 			Feel free to <a href="#Contact">contact me</a> if you have any questions.
