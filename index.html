@@ -55,7 +55,26 @@
 					    <h5 class="card-title">Live Chat</h5>
 					    <p class="card-text">Multiuser chat room implemented using TCP server, multi-threading and java swing library for GUI.</p>
 					    <div class="card-btns flex-column mt-auto text-center">
-						    <!--a href="#" class="btn btn-primary col-5">Demo</a-->
+						    <button type="button" class="btn btn-primary col-5" data-toggle="modal" data-target="#chat">Demo</button>
+
+						    <!--Chat Modal-->
+						    <div class="modal fade" id="chat" tabindex="-1">
+						    	<div class="modal-dialog modal-lg d-flex">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title">Chat Demo</h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body flex-column">
+								      	<img src="chat.gif" class="col-9"></img>
+								      </div>
+								    </div>
+								</div>
+							</div>
+							<!--Modal end-->
+
 						    <a href="https://github.com/Ronid1/chatBox" class="btn btn-primary col-6">Source Code</a>
 						</div>
 					 </div>
@@ -69,7 +88,7 @@
 					    <div class = "Scard-btns flex-column mt-auto text-center">
 						    <button type="button" class="btn btn-primary col-5" data-toggle="modal" data-target="#sudoku">Demo</button>
 						   
-						    <!--Modal-->
+						    <!--Sudoku Modal-->
 						    <div class="modal fade" id="sudoku" tabindex="-1">
 						    	<div class="modal-dialog modal-lg d-flex">
 								    <div class="modal-content">
