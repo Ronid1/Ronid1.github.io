@@ -1,84 +1,93 @@
-body, html{
-	width: 100%;
-	height: 100%;
-	font-family: 'Montserrat', sans-serif;
-	color: white; 
-	background-color: black;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: black;
 }
 
-footer{
-	padding-bottom: 30px;
+footer {
+  padding-bottom: 30px;
 }
 
 /*hero image*/
-.hero{
-	background-image: url(\header.jpg);
-	height: 93%;
-	width: 100%;
-	background-size: cover;
-	font-family:'Caveat', cursive;
-	color: white;
+.hero {
+  background-image: url(\header.jpg);
+  height: 93%;
+  width: 100%;
+  background-size: cover;
+  font-family: "Caveat", cursive;
+  color: white;
 }
 
-h1{
-	font-size: 7rem;
+h1 {
+  font-size: 7rem;
 }
 
-h2{
-	color: white;
-	font-size: 3rem;
-	margin-top: 40px;
+h2 {
+  color: white;
+  font-size: 3rem;
+  margin-top: 40px;
 }
 
-h3{
-		font-size: 3rem;
+h3 {
+  font-size: 3rem;
 }
 
-.content{
-	margin-bottom: 50px;
+.content {
+  margin-bottom: 50px;
 }
 
-.navbar{
-	background-color: black;
-	font-size: 1.3em;
+.navbar {
+  background-color: black;
+  font-size: 1.3em;
 }
-
 
 /*card*/
-.card-deck{
-	margin-top: 20px;
+.card-deck {
+  margin-top: 20px;
 }
 
-.card{
-	color: black;
+.card {
+  color: black;
 }
 
-.btn-primary{
-	border: none;
-	background-color: #0765b2
+.btn-primary {
+  border: none;
+  background-color: #0765b2;
 }
 
-.btn-primary:hover{
-	background-color: #225884;
-	border: 3px solid #225884;
+.btn-primary:hover {
+  background-color: #225884;
+  border: 3px solid #225884;
 }
 
-.modal{
-	width: 100%;
-	color: black;
+.contact-btn {
+  font-size: 50px;
+  margin: 10px;
+
 }
 
-.modal-big{
-	height: 100%;
+.contact-btn:hover{
+	text-decoration: none;
 }
 
-
-.modal-body{
-	margin: auto;
-	width: 100%;
-	padding: 15px;
+.modal {
+  width: 100%;
+  color: black;
 }
 
-.modal-gif{
-	object-fit: contain;
+.modal-big {
+  height: 100%;
+}
+
+.modal-body {
+  margin: auto;
+  width: 100%;
+  padding: 15px;
+}
+
+.modal-gif {
+  object-fit: contain;
 }
