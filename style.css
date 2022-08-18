@@ -118,28 +118,17 @@ h4{
   width: 100%;
 }
 
-.close{
-  color: white;
-}
-
-.close:hover{
-  color: white;
-}
-
-.modal-content{
-  background-color: rgb(38, 36, 36);
-}
-
-.modal-big {
+.modal-long {
   height: 100%;
 }
 
 .modal-body {
   margin: none;
+  padding: 1px;
   width: 100%;
-  padding: 15px;
 }
 
 .modal-gif {
+  padding: 0px;
   object-fit: contain;
 }
