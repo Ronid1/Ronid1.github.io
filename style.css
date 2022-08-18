@@ -44,7 +44,7 @@ h3 {
   font-size: 3rem;
 }
 
-h5{
+h4{
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -116,7 +116,18 @@ h5{
 
 .modal {
   width: 100%;
-  color: black;
+}
+
+.close{
+  color: white;
+}
+
+.close:hover{
+  color: white;
+}
+
+.modal-content{
+  background-color: rgb(38, 36, 36);
 }
 
 .modal-big {
@@ -127,7 +138,6 @@ h5{
   margin: none;
   width: 100%;
   padding: 15px;
-  background-color: black;
 }
 
 .modal-gif {
