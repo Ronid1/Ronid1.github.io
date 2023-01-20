@@ -1,0 +1,33 @@
+.img_bundle{
+    position: relative;
+    width: auto;
+    top: 0;
+    left: 0;
+  }
+  
+  .img_bundle button{
+    background-color: inherit;
+    border: none;
+    position: absolute;
+    margin: auto;
+    top: 22%;
+    left: 20%;
+    right:20%;
+    opacity: 80%;
+  }
+  
+  .lg_img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .inside_img{
+    width: 91%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    top: 9%;
+    left: 4%;
+  }
