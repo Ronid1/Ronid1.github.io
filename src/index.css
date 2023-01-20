@@ -1,0 +1,84 @@
+:root {
+  --primary-background: #eff7f1;
+  --secondery-background: #e2e7e2;
+  --dark-blue: #0b1c38;
+  --selected-blue: #143364;
+  --accent-green: #038f409c;
+  --bright-green: #02e364;
+  --white-txt: #e4f4e8;
+}
+
+body {
+  margin: 0;
+  font-family: "Sofia Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-background);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: var(--dark-blue);
+  border-radius: 10px;
+  width: 80px;
+  padding: 7px;
+  margin: 10px;
+  color: var(--white-txt);
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: var(--selected-blue);
+  border-color: var(--selected-blue);
+  cursor: pointer;
+}
+
+.container {
+  font-size: 20px;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.container-tight{
+  padding-top: 0;
+}
+
+.section {
+  padding: 30px 5%;
+  margin-bottom: 100px;
+}
+
+.section-secondery {
+  background-color: var(--secondery-background);
+}
+
+.social-btn {
+  color: var(--dark-blue);
+  font-size: 40px;
+  margin: 15px;
+}
+
+.social-btn:hover {
+  color: var(--selected-blue);
+}
+
+.img-sm{
+  height: 35vh;
+  transform: rotate(10deg);
+}

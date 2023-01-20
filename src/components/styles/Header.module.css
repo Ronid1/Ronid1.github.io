@@ -1,0 +1,27 @@
+.header_box{
+    height: auto;
+    background-color: var(--dark-blue);
+    padding-top: 5%;
+    padding-left: 5%;
+    font-family: 'Dosis', sans-serif;
+    color: var(--white-txt);
+    font-style: italic;
+}
+
+.txt_box{
+    vertical-align: center;
+    text-align: center;
+    /* margin-right: 20%; */
+    padding: 5px 20% 10px 15%;
+}
+
+.header_box h1{
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+.header_box h2{
+    font-size: 30px;
+    margin-top: 0;
+    font-weight: 100;
+}
