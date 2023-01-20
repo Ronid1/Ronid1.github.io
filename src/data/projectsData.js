@@ -23,8 +23,8 @@ export const projects = [
     description:
       "Extended Wordle game with a flexible board size. Designed components using JSX and CSS and managed game logic with React Context. Built a Next.JS server to fetch words and cross-check guesses.",
     link: "https://github.com/Ronid1/Wordle",
-    demoGif: "Wordle",
-    imageName: "wordle",
+    demoGif: "wordle",
+    imageName: "Wordle",
   },
   {
     name: "Maps backend",
