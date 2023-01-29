@@ -55,13 +55,15 @@ button:hover {
   text-align: center;
 }
 
-.container-tight{
+.container-tight {
   padding-top: 0;
 }
 
 .section {
   padding: 30px 5%;
   margin-bottom: 100px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .section-secondery {
@@ -78,7 +80,7 @@ button:hover {
   color: var(--selected-blue);
 }
 
-.img-sm{
-  height: 35vh;
+.img-sm {
+  max-width: 37vh;
   transform: rotate(10deg);
 }
